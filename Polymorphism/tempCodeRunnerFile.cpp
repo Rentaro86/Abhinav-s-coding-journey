@@ -55,6 +55,7 @@ int main() {
     valid(num1);
     cout<<"please 1 to add two numbers "<<endl;
     cout<<"please 2 to subtract two numbers "<<endl;
+    cout<<"Press 0 to exit the program"<<endl;
     valid(choice);
     switch (choice) {
         case 1: {
@@ -73,6 +74,8 @@ int main() {
     case 0: 
     cout<<"Exiting the program "<<endl;
     break;
+    default:
+    cout<<"Invalid response please Enter valid choice between 0 to 2"<<endl;
     }
     } while(choice != 0);
     
