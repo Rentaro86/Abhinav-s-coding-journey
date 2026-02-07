@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>basic input out program</title>
+    </head>
+    <body>
+        Name:<input type ="text" id = "name"><br>
+        Fullname:<input type ="text" id = "Fullname"><br>
+        DOB:<input type ="date" id = "DOB"><br>
+        <button onclick = "showdata()">Submit</button>
+        <p id = "workspace"></p>
+        <script>
+            function showdata() {
+                var name = document.getElementById("name").value;
+                var fullname = document.getElementById("Fullname").value;
+                var Dob = document.getElementById("DOB").value;
+                document.getElementById("workspace").innerHTML = "name" + name + "<br>" + "Full name" + fullname + "<br>" + "DOB" +
+                Dob;
+                
+            }
+        </script>
+
+    </body>
+</html>

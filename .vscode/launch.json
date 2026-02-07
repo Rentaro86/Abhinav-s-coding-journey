@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "SmartFormPrice",
+            "request": "launch",
+            "mainClass": "SmartFormPrice",
+            "projectName": "Abhinav-s-coding-journey_a296c747"
+        },
+        {
             "name": "(gdb) Attach",
             "type": "cppdbg",
             "request": "attach",
@@ -24,6 +31,5 @@
                 }
             ]
         }
-
     ]
 }
